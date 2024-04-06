@@ -6,7 +6,7 @@ services:
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres@123
-      POSTGRES_DB: albatros_product
+      POSTGRES_DB: order
     ports:
       - 5432:5432
 
